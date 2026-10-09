@@ -13,3 +13,4 @@
 - Keep prices and cart calculations in the shared products module so bag totals and collection prices use the same source.
 - Use client-only in-session bag and preview discount interactions until commerce and email services are connected; never imply a payment or subscription succeeded.
 - Define visual roles and component styling in the global design system so the requested brand palette stays consistent.
+- Vite `base` in vite.config.ts must match the GitHub repository name (`/eco-friendly-water-bottle/`) because the app is deployed to GitHub Pages under that path; update both together.
